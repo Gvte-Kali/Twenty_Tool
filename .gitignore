@@ -1,0 +1,17 @@
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# App data (stored in user home, not repo)
+.twenty_tools_*.json
+
+# OS
+.DS_Store
+Thumbs.db
