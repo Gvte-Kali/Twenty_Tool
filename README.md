@@ -10,7 +10,7 @@ A dark-themed SSH/SFTP file manager built with Python and Tkinter. Connects to a
 
 No Python required. Download and run directly:
 
-**[⬇ Download Twenty_Tools.exe](https://github.com/Gvte-Kali/Twenty_Tool/raw/refs/heads/main/Twenty_Tools.exe)**
+**[⬇ Download Twenty_Tools.exe](https://github.com/Gvte-Kali/Twenty_Tools/raw/refs/heads/main/Twenty_Tools.exe)**
 
 ---
 
@@ -20,12 +20,12 @@ Requires Python 3.10+. Installs `twentytools` as a system command available in *
 
 **With curl:**
 ```bash
-pip install paramiko && sudo curl -L https://raw.githubusercontent.com/Gvte-Kali/Twenty_Tool/refs/heads/main/Twenty_Tools.py -o /usr/local/bin/twentytools && sudo chmod +x /usr/local/bin/twentytools && twentytools
+pip install paramiko && sudo curl -L https://raw.githubusercontent.com/Gvte-Kali/Twenty_Tools/refs/heads/main/Twenty_Tools.py -o /usr/local/bin/twentytools && sudo chmod +x /usr/local/bin/twentytools && twentytools
 ```
 
 **With wget:**
 ```bash
-pip install paramiko && sudo wget -q https://raw.githubusercontent.com/Gvte-Kali/Twenty_Tool/refs/heads/main/Twenty_Tools.py -O /usr/local/bin/twentytools && sudo chmod +x /usr/local/bin/twentytools && twentytools
+pip install paramiko && sudo wget -q https://raw.githubusercontent.com/Gvte-Kali/Twenty_Tools/refs/heads/main/Twenty_Tools.py -O /usr/local/bin/twentytools && sudo chmod +x /usr/local/bin/twentytools && twentytools
 ```
 
 After installation, simply type `twentytools` from anywhere to launch the app.
