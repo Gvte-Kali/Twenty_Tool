@@ -7,7 +7,7 @@ import os
 SPEC_DIR = os.path.dirname(os.path.abspath(SPEC))  # folder containing this .spec
 
 a = Analysis(
-    [os.path.join(SPEC_DIR, 'scp_tool.py')],
+    [os.path.join(SPEC_DIR, 'Twenty_Tools.py')],
     pathex=[SPEC_DIR],
     binaries=[],
     datas=[],
