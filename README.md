@@ -14,19 +14,21 @@ No Python required. Download and run directly:
 
 ---
 
-### 🐧 Linux — one-liner
+### 🐧 Linux — install system-wide
 
-Requires Python 3.10+ and `pip install paramiko`.
+Requires Python 3.10+. Installs `twentytools` as a system command available in **any shell** (bash, zsh, fish…) for **all users**.
 
+**With curl:**
 ```bash
-pip install paramiko && wget https://raw.githubusercontent.com/Gvte-Kali/Twenty_Tool/refs/heads/main/Twenty_Tools.py -O Twenty_Tools.py && python3 Twenty_Tools.py
+pip install paramiko && sudo curl -L https://raw.githubusercontent.com/Gvte-Kali/Twenty_Tool/refs/heads/main/Twenty_Tools.py -o /usr/local/bin/twentytools && sudo chmod +x /usr/local/bin/twentytools && twentytools
 ```
 
-Or if you prefer `curl`:
-
+**With wget:**
 ```bash
-pip install paramiko && curl -L https://raw.githubusercontent.com/Gvte-Kali/Twenty_Tool/refs/heads/main/Twenty_Tools.py -o Twenty_Tools.py && python3 Twenty_Tools.py
+pip install paramiko && sudo wget -q https://raw.githubusercontent.com/Gvte-Kali/Twenty_Tool/refs/heads/main/Twenty_Tools.py -O /usr/local/bin/twentytools && sudo chmod +x /usr/local/bin/twentytools && twentytools
 ```
+
+After installation, simply type `twentytools` from anywhere to launch the app.
 
 ---
 
